@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0faa58e0-4e4f-4eac-832d-f1dec55bc019" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/List/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/List/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/db.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Account/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Account/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Account/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Account/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/List/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/List/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/List/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/List/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Transactions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Transactions/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Transactions/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Transactions/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,7 +137,8 @@
       <updated>1623888176300</updated>
       <workItem from="1623888184516" duration="296000" />
       <workItem from="1623888580325" duration="1076000" />
-      <workItem from="1623889805090" duration="4079000" />
+      <workItem from="1623889805090" duration="4326000" />
+      <workItem from="1623936019057" duration="3098000" />
     </task>
     <servers />
   </component>
@@ -154,5 +155,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

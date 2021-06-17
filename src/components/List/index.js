@@ -1,5 +1,6 @@
 import React from 'react';
 import './style.css';
+import PropTypes from "prop-types";
 
 const List = ({data}) => {
 
@@ -26,5 +27,17 @@ const List = ({data}) => {
         </>
     );
 };
+
+List.defaultProps = {
+    type: '',
+    value: '0',
+    date: '',
+}
+
+List.propTypes = {
+    type: PropTypes.string,
+    value: PropTypes.string,
+    date: PropTypes.string,
+}
 
 export default List;
