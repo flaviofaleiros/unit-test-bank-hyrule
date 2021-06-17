@@ -2,18 +2,12 @@ import React, { useEffect, useState } from 'react';
 
 import Account from './components/Account';
 import Transactions from './components/Transactions';
+import { calculateNewBalance } from './utils';
 import api from './api';
 
 import './App.css';
 import Header from "./components/Header";
 
-export const calculateNewBalance = (values, balance) => {
-  if (values.transaction === 'deposito') {
-    return balance + parseInt(values.value)
-  } else {
-    return balance - parseInt(values.value);
-  }
-}
 
 function App() {
   const [balance, setBalance] = useState(1000);
@@ -33,7 +27,7 @@ function App() {
 
     api.atualizaSaldo(newBalance).catch((error) => console.error(error))
     api.atualizaTransacoes(values).catch((error) => console.error(error))
-    
+
     setBalance(newBalance);
     setTransactions([values]);
   }

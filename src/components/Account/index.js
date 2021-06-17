@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import './style.css'
 
 const Account = ({ balance, performTransaction }) => {
-    const [values, setValues] = useState({transaction: '', value: 0});
+    const [values, setValues] = useState({transaction: 'deposito', value: 0});
 
     function handleChange(event) {
         const { name, value } = event.target;
@@ -20,9 +20,15 @@ const Account = ({ balance, performTransaction }) => {
 
     return <div className="Conta-header">
         <h2>Conta</h2>
-        <p>Saldo: <span data-testid="account-balance" className="Saldo-valor">{`R$ ${balance}`}</span></p>
+        <div className="Form__Group">
+            Saldo:
+            <span data-testid="account-balance" className="Saldo-valor">
+                {`R$ ${balance}`}
+            </span>
+        </div>
+
         <form onSubmit={handleSubmit}>
-            <div>
+            <div className="Form__Group">
                 <label>
                     Depósito
                     <input
@@ -36,7 +42,7 @@ const Account = ({ balance, performTransaction }) => {
                 </label>
             </div>
             
-            <div>
+            <div className="Form__Group">
                 <label>
                     Saque
                     <input
@@ -50,8 +56,9 @@ const Account = ({ balance, performTransaction }) => {
                 </label>
             </div>
 
-            <label>Valor:</label>
+            <label>Valor: </label>
             <input
+                className="Form__Field"
                 type="text"
                 name="value"
                 value={values.value}
@@ -60,7 +67,9 @@ const Account = ({ balance, performTransaction }) => {
             ></input>
 
             <div>
-                <button type="submit">
+                <button
+                    className="Form__Btn"
+                    type="submit">
                     Realizar operação
                 </button>
             </div>
