@@ -32,11 +32,11 @@ const Account = ({ balance, performTransaction }) => {
                 <label>
                     Depósito
                     <input
+                        data-testid="deposito-id"
                         type="radio"
                         name="transaction"
                         value="deposito"
                         onChange={handleChange}
-                        data-testid="transaction"
                         checked={values.transaction === 'deposito'}
                     />
                 </label>

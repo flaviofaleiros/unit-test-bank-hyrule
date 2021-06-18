@@ -1,11 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+import './style.css';
+
 import List from "../List";
 
 const Transactions = ({ transactions }) => {
     return (
-        <div data-testid="transactions">
+        <div  data-testid="transactions">
             <List data={transactions} />
         </div>
     )
