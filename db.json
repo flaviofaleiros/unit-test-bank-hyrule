@@ -1,8 +1,19 @@
 {
   "conta": {
-    "saldo": 1010
+    "saldo": 1000
   },
   "transacoes": [
-
+    {
+      "transaction": "deposito",
+      "value": "100",
+      "date": "17/06/2021",
+      "id": 1
+    },
+    {
+      "transaction": "saque",
+      "value": "100",
+      "date": "17/06/2021",
+      "id": 2
+    }
   ]
 }

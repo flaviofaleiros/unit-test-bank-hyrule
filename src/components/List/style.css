@@ -1,0 +1,26 @@
+.container{
+    min-width: 70%;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.coll{
+    padding: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    background-color: #f0f2f5;
+    min-width: 15rem;
+  }
+
+  .header{
+    padding: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    background-color: #eaecec;
+    min-width: 15rem;
+  }
+

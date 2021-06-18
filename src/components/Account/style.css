@@ -1,7 +1,49 @@
 .Conta-header {
-    color: #3ea03f;
+    color: #1bb99a;
 }
 
 .Saldo-valor {
     color: #426fa2;
+    font-size: 30px;
+}
+
+.Form__Field {
+    border: 1px solid #dcdcdc;
+    border-radius: 3px;
+    color: #002233;
+    font-size: 1.2rem;
+    padding: .5rem 1rem;
+    transition: all .2s linear;
+}
+
+.Form__Field:focus {
+    box-shadow: 0 0 7px rgba(255, 255, 255, .9);
+    border-color: #002233;
+    outline: none;
+}
+
+.Form__Btn {
+    background: #369c38;
+    border: none;
+    border-radius: 3px;
+    color: #fdfdfd;
+    margin-top: 1rem;
+    padding: .9rem;
+    transition: background .2s linear;
+}
+
+.Form__Btn:focus {
+    outline: none;
+}
+
+.Form__Btn:hover {
+    background: #1b6c1b;
+    cursor: pointer;
+}
+
+.Form__Group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    width: 100%;
 }
