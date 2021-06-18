@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render Header should snapShot 1`] = `
+<header
+  class="App-header"
+>
+  <h1>
+    PagBank
+  </h1>
+</header>
+`;

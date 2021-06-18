@@ -1,7 +1,12 @@
-.transacao-container {
-    width: 400px;
-    margin: 2px auto;
-    display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
-    background-color: #1bb99a;
+.transaction__container {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    width: 50%;
+    padding: 5px;
+    margin: 10px;
 }

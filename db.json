@@ -1,6 +1,6 @@
 {
   "conta": {
-    "saldo": 1000
+    "saldo": 2077
   },
   "transacoes": [
     {
@@ -11,9 +11,45 @@
     },
     {
       "transaction": "saque",
-      "value": "100",
+      "value": "1",
       "date": "17/06/2021",
       "id": 2
+    },
+    {
+      "transaction": "deposito",
+      "value": "1",
+      "date": "17/06/2021",
+      "id": 3
+    },
+    {
+      "transaction": "saque",
+      "value": "10",
+      "date": "6/17/2021",
+      "id": 4
+    },
+    {
+      "transaction": "saque",
+      "value": "10",
+      "date": "6/17/2021",
+      "id": 5
+    },
+    {
+      "transaction": "saque",
+      "value": "10",
+      "date": "6/17/2021",
+      "id": 6
+    },
+    {
+      "transaction": "deposito",
+      "value": "1000",
+      "date": "17/06/2021",
+      "id": 7
+    },
+    {
+      "transaction": "saque",
+      "value": "23",
+      "date": "17/06/2021",
+      "id": 8
     }
   ]
 }
